@@ -7,7 +7,6 @@ return (
     <BrowserRouter>
     <Routes>
     <Route path="/" element={<Greeting/>}/>
-    <Route path="*" element={<div>Ups!!</div>}/>
     </Routes>
     </BrowserRouter>
 )
